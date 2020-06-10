@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js?ver=5.2.6"></script>
+    <script src="js/main.js"></script>
+</head>
+<body id="div">
+    <style>
+        body {
+            background: #fff;
+            display: block;
+            position: relative;
+        }
+
+        .round-box {
+            position: absolute;
+            left: -325px;
+        }
+
+        #scroll {
+            display: flex;
+            flex-flow: wrap;
+            background: grey;
+            border-radius: 50%;
+            width: 750px;
+            height: 750px;
+            position: relative;
+            padding: 0;
+            transition: ease 1s all;
+        }
+
+        li {
+            display: block;
+            transform-origin: left;
+            position: absolute;
+            right: 0;
+            cursor: pointer;
+        }
+        .item-1 {
+            right: 16.5%;
+            top: calc(14.75% - 9px);
+        }
+        .item-2 {
+            right: 9.5%;
+            top: calc(22% - 9px);
+        }
+        .item-3 {
+            right: 4.25%;
+            top: calc(30.5% - 9px);
+        }
+        .item-4 {
+            right: 1%;
+            top: calc(40% - 9px);
+        }
+        .item-5 {
+            right: 0;
+            top: calc(50% - 9px);
+        }
+        .item-6 {
+            right: 1%;
+            top: calc(60% - 9px);
+        }
+        .item-7 {
+            right: 4.25%;
+            top: calc(69.5% - 9px);
+        }
+        .item-8 {
+            right: 9.5%;
+            top: calc(78% - 9px);
+        }
+        .item-9 {
+            right: 16.5%;
+            top: calc(85.25% - 9px);
+        }
+        .round {
+            margin: 0 auto;
+            display: block;
+            flex-flow: wrap;
+            background: black;
+            border-radius: 50%;
+            width: 680px;
+            height: 680px;
+            position: relative;
+            align-self: center;
+        }
+
+        .content-for-round-box {
+            padding-left: 700px;
+        }
+
+        .content-for-round-box .block {
+            display: none;
+        }
+    </style>
+    <div class="round-box">
+        <ul id="scroll" data-rotate="5">
+            <li>today</li>
+            <li>2017</li>
+            <li>2015</li>
+            <li>2012</li>
+            <li>2011</li>
+            <li>2007</li>
+            <li>2006</li>
+            <li>2004</li>
+            <li>2001</li>
+            <div class="round"></div>
+        </ul>
+    </div>
+    <div class="content-for-round-box">
+        <div class="block">
+            <h1>today</h1>
+            <p>[1] Te nam semper partiendo. Diam abhorreant ex vis, usu cu suas solum quodsi.</p>
+        </div>
+        <div class="block">
+            <h1>2017</h1>
+            <p>[2] Te nam semper partiendo. Diam abhorreant ex vis, usu cu suas solum quodsi.</p>
+        </div>
+        <div class="block">
+            <h1>2015</h1>
+            <p>[3] Te nam semper partiendo. Diam abhorreant ex vis, usu cu suas solum quodsi.</p>
+        </div>
+        <div class="block">
+            <h1>2012</h1>
+            <p>[4] Te nam semper partiendo. Diam abhorreant ex vis, usu cu suas solum quodsi.</p>
+        </div>
+        <div class="block" style="display: block;">
+            <h1>2011</h1>
+            <p>[5]Te nam semper partiendo. Diam abhorreant ex vis, usu cu suas solum quodsi.</p>
+        </div>
+        <div class="block">
+            <h1>2007</h1>
+            <p>[6] Te nam semper partiendo. Diam abhorreant ex vis, usu cu suas solum quodsi.</p>
+        </div>
+        <div class="block">
+            <h1>2006</h1>
+            <p>[7] Te nam semper partiendo. Diam abhorreant ex vis, usu cu suas solum quodsi.</p>
+        </div>
+        <div class="block">
+            <h1>2004</h1>
+            <p>[8] Te nam semper partiendo. Diam abhorreant ex vis, usu cu suas solum quodsi.</p>
+        </div>
+        <div class="block">
+            <h1>2001</h1>
+            <p>[9] Te nam semper partiendo. Diam abhorreant ex vis, usu cu suas solum quodsi.</p>
+        </div>
+    </div>
+</body>
+</html>
