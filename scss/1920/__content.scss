@@ -1,5 +1,5 @@
 body {
-    background: url("/img/back1920.png") no-repeat, #000;
+    background: url("../img/back1920.png") no-repeat, #000;
     background-size: 101%;
     background-position: center center;
     display: block;
@@ -199,7 +199,7 @@ body {
     width: 35px;
     height: 30px;
     position: fixed;
-    background: url("/img/icon-menu.png") no-repeat;
+    background: url("../img/icon-menu.png") no-repeat;
     background-size: contain;
     background-position: center center;
     transition: .3s ease all;
@@ -212,7 +212,7 @@ body {
         transition: .3s ease all;
     }
     &.active {
-        background: url("/img/icon-close.png") no-repeat;
+        background: url("../img/icon-close.png") no-repeat;
         background-size: contain;
         background-position: center center;
     }
