@@ -1,0 +1,34 @@
+/*
+Theme Name: Test Project
+Author: Lozoniuk Taras
+Author URI: //about.uajosh.com
+Version: 1.2
+*/
+
+@import "all/_fonts.scss";
+
+/* Styles for desktop (стили для больших экранов) */	
+
+@import "1920/_content.scss";
+
+@media screen and (max-width: 1919px) {
+	@import "1366/_content.scss";
+}
+
+
+/* Styles for mobile devices (стили для мобильных устройств) */
+
+@media screen and (max-width: 1365px) {
+	@import "768/_content.scss";
+}
+@media screen and (max-width: 767px) {
+	.burger-btn {top: 24px; right: 28px;}
+	.c-container {margin: 0 50px 0 auto;}
+}
+@media screen and (max-width: 500px) {
+	@import "mobile/_content.scss";
+}
+
+@import "mobile/_round.scss";
+
+

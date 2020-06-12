@@ -11,5 +11,14 @@
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josh-hawen/test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Josh-hawen/test/issues"
+  },
+  "homepage": "https://github.com/Josh-hawen/test#readme"
 }

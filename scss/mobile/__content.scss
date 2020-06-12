@@ -1,0 +1,143 @@
+body {
+    padding: 91px 0 102px !important;
+    background: url("/img/back375.png") no-repeat,#000;
+    background-size: cover;
+    background-position: center center;
+    border: 0 !important;
+    outline: 0 !important;
+    p {
+        font-size: 12px;
+        line-height: 1.64;
+    }
+}
+
+.c-container {
+    max-width: 320px;
+    padding-left: 4px;
+    margin: 0 auto  ;
+    .text-block {
+        h3 {
+            font-size: 20px;
+            letter-spacing: .3px;
+        }
+        &:nth-child(1) {
+            margin-bottom: 150px;
+        }
+        &:last-child {
+            padding: 0 5px 0 0;
+            margin-top: 305px;
+            p {
+                line-height: 1.62;
+                margin: 11px auto 0;
+            }
+        }
+    }
+    h2 {
+        font-size: 20px;
+        max-width: 185px;
+        line-height: 1.3;
+        letter-spacing: 0.25px;
+        padding-left: 76px;
+    }
+    .content-for-round-box {
+        .block {
+            padding: 60px 0 0px 0px;
+            h1 {
+                font-size: 56px;
+                left: 80px;
+                letter-spacing: 8px;
+                margin: 6px 0 0 -7px;
+            }
+            p {
+                padding: 50px 0 0 15px;
+                font-size: 11px;
+                max-width: 185px;
+                line-height: 1.5;
+            }
+        }
+        .mobile-rectangle {
+            position: absolute;
+            top: 61%;
+            left: 25px;
+            background: transparent;
+            overflow: hidden;
+            .some-rectangle {
+                transform: translateX(0);
+                opacity: 1;
+                display: block;
+                width: 35px;
+                height: 8px;
+                background: linear-gradient(to right, #ffafe3, #fa2cb0 70%);
+                &.animation {
+                    animation: movin 1s;
+                    animation-timing-function: ease-in;
+                }
+            }
+        }
+    }
+}
+
+
+.round-box {
+    width: 100vw;
+    height: 100vw;
+    overflow: hidden;
+    top: 49%;
+    left: 0;
+    .container {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100vw;
+        transform: rotate(-90deg);
+        #scroll {
+            position: absolute;
+            left: -115%;
+            top: -33.5%;
+            bottom: 0;
+            right: 0;
+            width: 800px;
+            height: 800px;
+            margin: 0;
+            li {
+                font-size: 11.26px;
+            }
+        }
+        .round {
+            width: 620px;
+            height: 650px;
+            position: absolute;
+            left: -146%;
+            top: -18%;
+            right: 0;
+            bottom: 0;
+        }
+    }  
+}
+
+.burger-btn {
+    top: 24px;
+    right: 28px;
+}
+
+.logo {
+    top: 25px;
+    left: 31px;
+}
+
+.sidebar-menu {
+    width: 100vw;
+    height: 100vh;
+    nav {
+        padding-top: 115px;
+    }
+    .order {
+        background: #d02ac0;
+        color: #000;
+        border-color: transparent;
+        &:hover {
+            background: #000;
+            color: #fff;
+        }
+    }
+}
